@@ -44,9 +44,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Phone)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Created)
-            </th>
+
 
 
             <th></th>
@@ -86,9 +84,7 @@
     <td>
         @Html.DisplayFor(modelItem => item.Phone)
     </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Created)
-    </td>
+
 
 
     <td>
@@ -96,8 +92,7 @@
         <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
         <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
     </td>
-</tr>
-}
+</tr>}
     </tbody>
 </table>
 @section scripts {
